@@ -1,0 +1,89 @@
+html {
+    height: 100%
+}
+
+body{
+	background-color: #212121;
+	font-family: Helvetica, Arial;
+	letter-spacing: .15em;
+}
+
+#wrapper{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	/*background-color: blue;*/
+	background-image: url("../img/construction-dark.jpg"); /*no-repeat center center fixed*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content_wrapper{
+	align-self: center;
+	/*background-color: blue;*/
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	margin-top: 0;
+	color: #EECF52;
+	font-size: 2rem;
+	letter-spacing: .25em;
+	/*background-color: red;*/
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: .5em;
+	white-space: nowrap;
+}
+
+h1{
+	border: .17em solid white;
+	padding: 1.2em;
+	width: 80%;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+
+h3{
+
+}
+
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 1.3em;
+	}
+
+	h1{
+		font-size: 1em;
+		border-width: 
+	}
+
+	h3{
+		font-size: .8em;
+	}
+}
+
+@media screen and (max-width: 480px){
+	h2{
+		font-size: 1em;
+	}
+
+	h1{
+		font-size: .7em;
+		border-width: 
+	}
+
+	h3{
+		font-size: .5em;
+	}
+}
+}
+
+@media screen and (min-width: 1000px){
+	#content_wrapper{
+		width: 800px;
+	}
+}
